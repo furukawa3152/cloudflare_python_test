@@ -43,6 +43,7 @@ jobs:
         if: steps.commit.outputs.changed == 'true'
         with:
           python-version: "3.13"
+          enable-cache: false
 
       - name: Deploy to Cloudflare
         if: steps.commit.outputs.changed == 'true'

@@ -18,6 +18,7 @@ jobs:
       - uses: astral-sh/setup-uv@v5
         with:
           python-version: "3.13"
+          enable-cache: false
 
       - name: Deploy to Cloudflare
         env:
