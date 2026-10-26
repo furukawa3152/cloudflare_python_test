@@ -1,0 +1,12 @@
+[project]
+name = "itaru-portfolio"
+version = "0.1.0"
+description = "古川 格のポートフォリオ"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "workers-py",
+    "workers-runtime-sdk",
+]

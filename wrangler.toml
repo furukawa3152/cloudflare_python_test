@@ -1,0 +1,9 @@
+name = "itaru-portfolio"
+main = "src/entry.py"
+compatibility_date = "2026-10-17"
+compatibility_flags = ["python_workers"]
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+not_found_handling = "none"

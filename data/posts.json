@@ -1,0 +1,378 @@
+[
+  {
+    "title": "安くて楽しいAIエージェント、GrokBot！！",
+    "description": "無料で常駐型AIエージェントを試す方法でござる",
+    "image": "https://hagakurepgm.net/media/images/sukurinshiyotsuto_2026-10-23_22.38.46.original.png",
+    "url": "https://hagakurepgm.net/blog/141/",
+    "date": "2026-10-24",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "「みのるん式ビジネスパーソンのためのClaude Code仕事術」輪読会後記",
+    "description": "Claude Code仕事術を学ぶ輪読会の報告でござる",
+    "image": "https://hagakurepgm.net/media/images/IMG_0979.original.jpg",
+    "url": "https://hagakurepgm.net/blog/139/",
+    "date": "2026-10-18",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "Jevを活用して、シン・HAGAKURE君を作ってみた",
+    "description": "Jevで検索とSlack文脈を必要時だけ追加するBot改良でござる",
+    "image": "https://hagakurepgm.net/media/images/ChatGPT_Image_2026Nian9Yue25Ri_01_03_34.original.png",
+    "url": "https://hagakurepgm.net/blog/138/",
+    "date": "2026-09-25",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "Jevを触ってみた_AIに脊髄反射が追加される時代",
+    "description": "TypeSafe AIのJevを試した技術ブログでござる",
+    "image": "https://hagakurepgm.net/media/images/ChatGPT_Image_2026Nian9Yue22Ri_00_31_53.original.png",
+    "url": "https://hagakurepgm.net/blog/136/",
+    "date": "2026-09-21",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "TIMEMORE C5買ってみた",
+    "description": "TIMEMORE C5の魅力と粗挽きの注意点を紹介するブログでござる",
+    "image": "https://hagakurepgm.net/media/images/ChatGPT_Image_2026Nian9Yue15Ri_23_54_24.original.png",
+    "url": "https://hagakurepgm.net/blog/134/",
+    "date": "2026-09-16",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "ページネーション修正とAIモデル更新メモ（追記あり）",
+    "description": "ページネーション改善とAIモデル変更の備忘録でござる",
+    "image": "https://hagakurepgm.net/media/images/sukurinshiyotsuto_2026-08-24_0.42.57.original.png",
+    "url": "https://hagakurepgm.net/blog/130/",
+    "date": "2026-08-23",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "HAGAKURE君をcronで不死身にした話",
+    "description": "侍は倒れても何度でも起き上がる HAGAKUREプログラミング塾のSlackにいる侍Bot、HAGAKURE君。 Slackの専用チャンネルで話しかけると、ござる口調で返してくれる。会話が3分以上途切れなければ、対話を溜めながら話してくれ…",
+    "image": "https://hagakurepgm.net/media/images/ChatGPT_Image_2026Nian8Yue14Ri_00_22_22.original.png",
+    "url": "https://hagakurepgm.net/blog/129/",
+    "date": "2026-08-13",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "Webサイトのアクセス解析を読むのをやめて、AIと改善サイクルを回す",
+    "description": "分析→仮説→提案→実装→検証のサイクルを一緒に回せるAIエージェントを作った話 GA4、GSCのダッシュボードを作った先に、本当に作りたかったものが見えてきた このブログサイト、Scroll並びにHAGAKURE PROGRAMMING塾…",
+    "image": "https://hagakurepgm.net/media/images/ChatGPT_Image_2026Nian7Yue26Ri_01_57_55.original.png",
+    "url": "https://hagakurepgm.net/blog/127/",
+    "date": "2026-07-26",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "RunCat NeoでAIコーディングツールの使用量を表示",
+    "description": "RunCat Neo とは macOSのメニューバーで動くアプリで、CPU負荷に応じて猫が走る（または歩く）ことで、マシンの忙しさを直感的に見せてくれる。 今回Neoになったことで、カスタムメトリクス という機能が追加され、指定した J…",
+    "image": "https://hagakurepgm.net/media/images/sukurinshiyotsuto_2026-07-19_1.06.08.original.png",
+    "url": "https://hagakurepgm.net/blog/124/",
+    "date": "2026-07-18",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "v０ハッカソン、作ってみた",
+    "description": "7年分のコーヒー記録アプリを作ってみた。 先日のブログで、v0とAWSのデータベースを使ったハッカソンに参加登録したという記事を書きました。 その後、締め切りに追われながら、なんとか実際に動くWebアプリケーションを作り、ハッカソンへの提…",
+    "image": "https://hagakurepgm.net/media/images/sukurinshiyotsuto_2026-06-28_0.15.33.original.png",
+    "url": "https://hagakurepgm.net/blog/120/",
+    "date": "2026-06-27",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "v0 and AWS Databasesハッカソン",
+    "description": "プロモーションクレジットに目が眩んで、ハッカソンに参加登録したよ。 JAWS-UG佐賀さんが開いてくださったこちらのイベントをきっかけに、ハッカソンに応募してみることにしました。 ハッカソン公式ページ どんなハッカソン？ v０（ブイゼロ）…",
+    "image": "https://hagakurepgm.net/media/images/sukurinshiyotsuto_2026-06-21_11.15.15.original.png",
+    "url": "https://hagakurepgm.net/blog/116/",
+    "date": "2026-06-21",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "Chromeで業務アプリを「専用アプリ化」する",
+    "description": "自作のアプリをより「アプリっぽく」使いたい 先日書いたブログ アプリをどしどし使い捨てていこう で紹介したスケジュール処理アプリが非常に気に入っている。 どんどん使い捨てようとか書いておいてなんだが、この形が気に入って、定型のタスク処理が…",
+    "image": "https://hagakurepgm.net/media/images/ShengChengHuaXiang1.original.png",
+    "url": "https://hagakurepgm.net/blog/113/",
+    "date": "2026-06-06",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "アプリをどしどし使い捨てていこう",
+    "description": "どんどん作ってどんどん捨てるのがいいんじゃないかと思ったと言う話。 先日、仕事用にこんなアプリを作ってみた。 スケジュール処理アプリ やりたかったこと 「どうしても今日中に集中して処理したい87件の書類がある」 という状態だったので、10…",
+    "image": "https://hagakurepgm.net/media/images/easy_make.original.png",
+    "url": "https://hagakurepgm.net/blog/110/",
+    "date": "2026-05-10",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "手書きHTMLに回帰する人たち",
+    "description": "かつて「手で書くコード」は、効率の悪い過去の遺物だった。 AIがコードを書く時代。 人間は仕様をざっくり投げるだけで、最適化されたフロントエンドが数秒で完成する。 アクセシビリティもSEOもレスポンシブも、すべて“いい感じに”整う。 …",
+    "image": "https://hagakurepgm.net/media/images/ChatGPT_Image_2026Nian4Yue28Ri_23_02_44.original.png",
+    "url": "https://hagakurepgm.net/blog/109/",
+    "date": "2026-04-28",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "Gemma4で名刺管理する",
+    "description": "過去イチでローカルLLMを生活の中で実用出来たかもしれない。 Discordに投げた名刺画像がObsidianの名刺帳になるまで やったこと Discordのmeisiチャンネルに名刺画像を投稿すると、ローカルで動かしているOllamaの…",
+    "image": "https://hagakurepgm.net/media/images/ChatGPT_Image_2026Nian4Yue26Ri_02_42_40.original.png",
+    "url": "https://hagakurepgm.net/blog/108/",
+    "date": "2026-04-26",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "Gemma4 vs Gemma3",
+    "description": "Gemmaシリーズの新モデルが出た！！ 2026年4月2日、Googleより新しいオープンAIモデル、Gemma4が公開されました。 E2B E4B 26B MoE 31B Dense という４モデル展開で、パッとみた感じ、現在自宅で使…",
+    "image": "https://hagakurepgm.net/media/images/rohotsutohatoruGemma_4_Dui_Gemma_3.original.png",
+    "url": "https://hagakurepgm.net/blog/107/",
+    "date": "2026-04-11",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "Qwen3.5 vs gemma3",
+    "description": "2026年3月のローカルLLM事情を確認したかった。のだが、、、 以前書いたこちらのブログ、 gpt-oss vs gemma3 がやたらと検索人気が高かったので、２匹目のドジョウ狙い。というわけでもないのですが、最近新しいローカルモデル…",
+    "image": "https://hagakurepgm.net/media/images/rohotsutoDuiJue__Qwen_vs_Gemma.original.png",
+    "url": "https://hagakurepgm.net/blog/105/",
+    "date": "2026-03-23",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "美味しいポテトチップスを作りたい",
+    "description": "※注 このブログにITの話は（ほぼ）出てきません。 子供に喜ばれるポテトチップスの作り方を探ってみた話 自宅でのポテトチップスの作り方が安定してきたので、ブログにまとめてみます。 ポイントはこれ。ドライヤー。 手…",
+    "image": "https://hagakurepgm.net/media/images/Gemini_Generated_Image_nurm2qnurm2qnurm_1.original.png",
+    "url": "https://hagakurepgm.net/blog/102/",
+    "date": "2026-03-15",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "入院料試算アプリを作ってみた",
+    "description": "先日のHIXXX YAXXXさんのブログ、 複雑なフローチャートをQ&A形式にしてみる にヒントをいただき、患者さんが自分で入院費を試算出来るアプリケーションを作成してみました。 作ったもの（試作） 入院費概算シミュレーター 課題…",
+    "image": "https://hagakurepgm.net/media/images/Gemini_Generated_Image_q8tmqeq8tmqeq8tm.original.png",
+    "url": "https://hagakurepgm.net/blog/101/",
+    "date": "2026-03-10",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "AIプロンプトコンテスト後記",
+    "description": "RYO-FU BASE（公益財団法人佐賀県産業振興機構さが産業ミライ創造ベース）主催のAIプロンプトコンテストに参加してきました AIプロンプトコンテストとは AIプロンプトコンテスト RYO-FU BASEさん主催による、生成AIへの指…",
+    "image": "https://hagakurepgm.net/media/images/sukurinshiyotsuto_2026-03-04_0.02.08.original.png",
+    "url": "https://hagakurepgm.net/blog/98/",
+    "date": "2026-03-04",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "vibe-local を触ってみた",
+    "description": "vibe-local って何？ 落合陽一さんが作られた、ローカルLLMで動作するclaudecodeだそうです。 曰く、 クロードコードにクロードコード作ってって言って寝たら，朝起きたらクロードコードが出来てた んだそうです。 とりあえず…",
+    "image": "https://hagakurepgm.net/media/images/sukurinshiyotsuto_2026-02-25_23.17.50.original.png",
+    "url": "https://hagakurepgm.net/blog/94/",
+    "date": "2026-02-25",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "佐賀ITコミュニティデイ2026を終えて",
+    "description": "今年も佐賀のITコミュニティが集まるイベント、Saga IT Community Dayが2月21日、22日の二日間で開催されました。 イベントの運営メンバーとして、また参加コミュニティの一つであるHAGAKURE PROGRAMMING…",
+    "image": "https://hagakurepgm.net/media/images/sukurinshiyotsuto_2026-02-22_22.37.42.original.png",
+    "url": "https://hagakurepgm.net/blog/91/",
+    "date": "2026-02-22",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "Aqua VoiceかAmicalか...",
+    "description": "音声入力サービスをどちらにするか（というか、課金するか否か）非常に悩んでいるため比較 まずはGeminiにサービスを比較調査してもらった。 1. サービス概要 項目 Aqua Voice (アクアボイス) Amical (アミカル)…",
+    "image": "https://hagakurepgm.net/media/images/akuahoisuDuiamikaru.original.png",
+    "url": "https://hagakurepgm.net/blog/85/",
+    "date": "2026-02-08",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "2026年は思考を溜めていく",
+    "description": "新年なので日記を書くぞー、という思いから「思考を溜めていく仕組み」を構築した話 ベタだが、新年なので日記を始めたいと思った。例年とはモチベーションがちょっと違っていて、思考をログとして残しておきたいという理由が強い。 この2年ぐらいAIが…",
+    "image": "https://hagakurepgm.net/media/images/ChatGPT_Image_2026Nian1Yue23Ri_13_18_03.original.png",
+    "url": "https://hagakurepgm.net/blog/82/",
+    "date": "2026-01-23",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "新年早々ドメイン設定でやらかした話",
+    "description": "【やらかし記録】Cloudflare Pagesの独自ドメイン設定で本番サイトを上書きしてしまった話 新年早々やらかしました。うっかりミスで、このブログサイトを含むコミュニティのホームページを見れなくしてしまっておりました。 なにが起きた…",
+    "image": "https://hagakurepgm.net/media/images/sukurinshiyotsuto_2026-01-01_17.22.29.original.png",
+    "url": "https://hagakurepgm.net/blog/81/",
+    "date": "2026-01-01",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "2025年のコミュニティ活動をAIと振り返る。",
+    "description": "2025年 HAGAKURE Programming塾 活動記録 2022年に仲間と立ち上げたHAGAKURE PROGRAMMING塾。早いもので4年目となりました。2025年をAIと一緒に振り返ってみます。 イベントの告知はSlack…",
+    "image": "https://hagakurepgm.net/media/images/2025result.original.png",
+    "url": "https://hagakurepgm.net/blog/80/",
+    "date": "2025-12-28",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "Nano Banana Proが凄い。に思うこと",
+    "description": "インフォグラフィックが持つ「強すぎる」訴求力について思ったこと Googleの新しい画像生成モデル、Nano Banana Proが凄まじい。 デザインは人間がAIに奪われない最後の領域だと思っていたのが、完全に幻想として打ち砕かれる音を…",
+    "image": "https://hagakurepgm.net/media/images/infogf.original.png",
+    "url": "https://hagakurepgm.net/blog/78/",
+    "date": "2025-12-12",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "XへのAPIでの自動投稿、意外といけた！",
+    "description": "やりたかったこと このブログ（scroll）に投稿された際に、Xに自動投稿される仕組みを作りたかった。 XはAPIの審査が厳しいと聞いていたような気がしたので、果たして実現できるか不安だったのですが、意外とすんなり行けたので、登録周りを備…",
+    "image": "https://hagakurepgm.net/media/images/sukurinshiyotsuto_2025-11-17_23.30.05.original.png",
+    "url": "https://hagakurepgm.net/blog/75/",
+    "date": "2025-11-23",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "Google Antigravity触ってみた",
+    "description": "Antigravityとは Googleが2025年11月18日に発表したAI開発プラットフォーム。 とりあえず触ってみました。 https://antigravity.google/ からダウンロードしてインストールするだけですぐ使えま…",
+    "image": "https://hagakurepgm.net/media/images/sukurinshiyotsuto_2025-11-20_20.28.00.original.png",
+    "url": "https://hagakurepgm.net/blog/76/",
+    "date": "2025-11-20",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "ビット量子化とおばあちゃんの話",
+    "description": "ビット量子化について勉強してたら、ふと亡くなったおばあちゃんのことを思い出したよ、という話。 ビット量子化とは LLMが内部の重みを「細かく覚える」のをやめて、だいたいの値だけで覚えるようにすることで、メモリを節約し、処理を速くする工夫の…",
+    "image": "https://hagakurepgm.net/media/images/ChatGPT_Image_2025Nian11Yue3Ri_19_36_44.original.png",
+    "url": "https://hagakurepgm.net/blog/72/",
+    "date": "2025-11-03",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "GitHub Actionsの環境変数での意外な躓き",
+    "description": "GitHub Actionsの環境変数名に “OPENAI_API_KEY” が使えない問題 はじめに 先日、GitHub Actions上でPythonスクリプトを自動実行するワークフローを構築していました。 内容としては、Slack …",
+    "image": "https://hagakurepgm.net/media/images/sukurinshiyotsuto_2025-10-20_0.10.44.original.png",
+    "url": "https://hagakurepgm.net/blog/70/",
+    "date": "2025-10-19",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "drawio×AIでアーキテクト図を描く",
+    "description": "楽してアーキテクト図を描きたい アプリやシステムの構成を説明するときに「アーキテクト図を描くのが面倒だな」と思うことはありませんか？ 特に、AWS・Google・APIなど複数のサービスを組み合わせると、 「どの矢印がどこにつながっていた…",
+    "image": "https://hagakurepgm.net/media/images/sukurinshiyotsuto_2025-10-07_23.43.40.original.png",
+    "url": "https://hagakurepgm.net/blog/69/",
+    "date": "2025-10-07",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "AIを混乱させる謎の文字列の話",
+    "description": "入力するとAIが謎の解答を返す文字列 「bagbogbo」 毎回回答は異なる。結構怖い。 「植物百科通」 こちらも毎回回答は異なる。 …",
+    "image": "https://hagakurepgm.net/media/images/sukurinshiyotsuto_2025-09-21_0.46.15.original.png",
+    "url": "https://hagakurepgm.net/blog/66/",
+    "date": "2025-09-20",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "AIでプレゼン資料作りたい。2025年9月版",
+    "description": "AIを使って、簡単に気の利いたプレゼン資料を作りたい！ この欲求のために、この半年位あれやこれやと試行錯誤をしてきました。 Saasのサービスを使ったり、HTMLで書いてみたりいろいろしましたが、一旦この辺が答えじゃね? という作り方がで…",
+    "image": "https://hagakurepgm.net/media/images/sauna_slide.original.png",
+    "url": "https://hagakurepgm.net/blog/slide_with_ai202509/",
+    "date": "2025-09-06",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "Cursor が日付を間違える問題について",
+    "description": "Cursor が日付を間違えるので、ルール追記で直した話 「Cursor」という AI エディタを使ってます。 https://cursor.com/ これがめちゃくちゃ便利で、コード補完もいい感じだし、ちょっと相談するとすぐコード書…",
+    "image": "https://hagakurepgm.net/media/images/a45e27aa-1562-49dc-8fd0-5052d50c86ec.original.png",
+    "url": "https://hagakurepgm.net/blog/cursor-date-setting/",
+    "date": "2025-08-22",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "gpt-oss vs gemma3",
+    "description": "ついにOpenAI からローカルモデルが！ 2025-08-06、OpenAI から待望のローカルモデル gpt-oss が発表されました。 20Bであれば私の環境（M4 Mac mini／24GB メモリ）でもなんとか動きそうなので、さ…",
+    "image": "https://hagakurepgm.net/media/images/ChatGPT_Image_2025Nian8Yue8Ri_22_06_18.original.png",
+    "url": "https://hagakurepgm.net/blog/gpt-oss-vs-gemma3/",
+    "date": "2025-08-08",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "mulmocast で HAGAKURE紹介動画作成",
+    "description": "mulmocast で “ジブリ風コミック動画” を作ってみた receptron/mulmocast-cli の公式ドキュメント を読んで、元マイクロソフトのエンジニア・中島聡さんが公開した オープンソースツール「mulmocast」を…",
+    "image": "https://hagakurepgm.net/media/images/0p.original.png",
+    "url": "https://hagakurepgm.net/blog/mulmocast-hagakure-introduction/",
+    "date": "2025-08-03",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "cloudflare pagesで簡単サイトデプロイ",
+    "description": "最近、Cloudflare Pages を使って驚くほど簡単に静的サイトを公開できたので、備忘録がてら手順をまとめます。 なぜCloudflare Pagesを使いたかったのか 最近は、生成AIでHTMLのWebページや資料を簡単に作成で…",
+    "image": "https://hagakurepgm.net/media/images/sukurinshiyotsuto_2025-07-19_1.43.00.original.png",
+    "url": "https://hagakurepgm.net/blog/cloudflare-pages-happy/",
+    "date": "2025-07-18",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "Google formをGASで作らせちゃおう！",
+    "description": "みなさん、Google Form使ってますか？ 手軽にアンケートが取れて、スプレッドシートで集計もできて、とても便利ですよね。 でも、「GUIでフォームをぽちぽち作るの、地味に面倒…」という人も多いのではないでしょうか？ 実は、GAS（G…",
+    "image": "https://hagakurepgm.net/media/images/672c31d8-7864-4ce2-b730-987b01cb29f2.original.png",
+    "url": "https://hagakurepgm.net/blog/google-form_by_gas/",
+    "date": "2025-07-05",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "Gemini CLIがやってきた！ヤーヤーヤー！",
+    "description": "2025年6月25日、Googleから新しいAIエージェント、Gemini CLIが発表されたので早速試してみました。 公式リポジトリ 導入はコマンド一発（Node.js 18以上がインストールされている必要があります。） 一回だけ使って…",
+    "image": "https://hagakurepgm.net/media/images/sukurinshiyotsuto_2025-06-27_9.00.34_Dm1177W.original.png",
+    "url": "https://hagakurepgm.net/blog/gemini-cli_yeah/",
+    "date": "2025-06-28",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "AIエージェントで開発するコツが少しわかってきた",
+    "description": "２週間使って少し見えてきた、暴れ馬を制御する的な開発手法 はじめに AIエージェントを活用した開発が一般的になってきました。CursorやAmazon Qを使った開発を始めて約2週間ほどですが、最初はひたすら感動でしたが、進めていくうちに…",
+    "image": "https://hagakurepgm.net/media/images/ChatGPT_Image_2025Nian6Yue18Ri_23_46_52.original.png",
+    "url": "https://hagakurepgm.net/blog/develop_with_agent/",
+    "date": "2025-06-18",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "Amazon Qで自然言語でゲーム作成！",
+    "description": "Amazon Q Developer for CLIを使って、自然言語オンリーでモグラ叩きゲームを作ったよ、という話 今日はJAWS-UG佐賀さんのイベント、 Amazon Q Developer for CLI De GameをつくらN…",
+    "image": "https://hagakurepgm.net/media/images/sukurinshiyotsuto_2025-06-11_22.58.15.original.png",
+    "url": "https://hagakurepgm.net/blog/amazon-q_mogura_game/",
+    "date": "2025-06-11",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "gpt-4.1-miniのAPIをBotで試す。",
+    "description": "gpt-4o-miniからgpt-4.1-miniに変更でどのくらい賢くなったか。 HAGKURE PROGRAMMING塾のSlack内には、hagakure君というチャットボットが住んでおります。 Opena…",
+    "image": "https://hagakurepgm.net/media/images/ChatGPT_Image_2025Nian6Yue8Ri_01_32_33.original.png",
+    "url": "https://hagakurepgm.net/blog/hagakure-gpt-41-mini/",
+    "date": "2025-06-07",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "一番ハードルの低い技術ブログを目指して",
+    "description": "一番ハードルの低い技術ブログを作りたい！ 起案から約半年、HAGAKURE PROGRAMMING塾では、自分たちのオリジナルの技術ブログをデプロイしました。 目指したのは、非エンジニアが技術ブログとして気楽にアウトプットできる「最もハー…",
+    "image": "https://hagakurepgm.net/media/images/JiShuburoguZuoChengnochimukorabo.original.png",
+    "url": "https://hagakurepgm.net/blog/make_techblog/",
+    "date": "2025-05-26",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "MCPについて学んでみた",
+    "description": "最近AI界隈でよく耳にするようになった言葉、MCP（Model Context Protocol）について勉強会を開催しました。 最近、AI界隈で「これからはMCPだ！」という声をよく聞くようになりました。そんな中、自分自身の理解を深めた…",
+    "image": "https://hagakurepgm.net/media/images/MCP.original.png",
+    "url": "https://hagakurepgm.net/blog/mcp_study1/",
+    "date": "2025-05-25",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "whisper.cppとPythonで文字起こし",
+    "description": "やりたいこと Macでローカルで文字起こしがしたい M4Macを手に入れて、Whisperでローカルで文字起こしが出来るようになるかなと思ってやってみたが、PythonのWhisperライブラリではいまいち速度が出ない。 Whisperラ…",
+    "image": "https://hagakurepgm.net/media/images/whispercpp.original.png",
+    "url": "https://hagakurepgm.net/blog/whispercppwithpython/",
+    "date": "2025-05-23",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
+    "title": "OllamaでローカルLLM動作が爆速になった話",
+    "description": "MacシリコンでローカルLLMを爆速化！PyTorchからOllamaへの乗り換え記録 M4 Mac miniでローカルLLMを動かしたいけど遅すぎて使い物にならない！と悩んでいた私が、PyTorchからOllamaへ切り替えたことで一気…",
+    "image": "https://hagakurepgm.net/media/images/IMG_7708.original.jpg",
+    "url": "https://hagakurepgm.net/blog/ollamallm/",
+    "date": "2025-05-20",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  }
+]
