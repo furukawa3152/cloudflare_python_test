@@ -2,6 +2,15 @@ name = "itaru-portfolio"
 main = "src/entry.py"
 compatibility_date = "2026-10-17"
 compatibility_flags = ["python_workers"]
+workers_dev = true
+
+[[routes]]
+pattern = "itaruweb.com"
+custom_domain = true
+
+[[routes]]
+pattern = "www.itaruweb.com"
+custom_domain = true
 
 [assets]
 directory = "./public"
