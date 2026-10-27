@@ -58,7 +58,7 @@ def main() -> None:
     x, y = 72, 392
     draw.text((x, y), lead, font=ja, fill=INK)
     draw.text((x + draw.textlength(lead, font=ja), y), accent, font=ja, fill=LIME)
-    tracked(draw, (x, y + 86), "itaru's portfoliosite", en, MUTED, 1.6)
+    tracked(draw, (x, y + 86), "itaru's portfolio site", en, MUTED, 1.6)
     image.save(OUT, quality=86, optimize=True)
     print(f"wrote {OUT}")
 
