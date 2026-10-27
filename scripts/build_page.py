@@ -96,7 +96,6 @@ def main() -> None:
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ITARU FURUKAWA — Portfolio</title>
   <meta name="description" content="古川 格のポートフォリオ。医療の現場から、Python・AI・コミュニティを通じて、日々の課題を形にする。">
-  <meta property="og:title" content="古川 格">
   <meta property="og:description" content="日常の気づきを、変化のきっかけに。ITの力で、「ちょっと面白く」">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://itaruweb.com/images/web/og.jpg">
