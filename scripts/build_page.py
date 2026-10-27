@@ -14,7 +14,7 @@ WORKS = [
     {
         "num": "01",
         "title": "HAGAKURE PROGRAMMING塾",
-        "text": "佐賀でプログラミングを学びたい人たちのコミュニティです。運営をしています。",
+        "text": "佐賀でITやAIを学びたい仲間とコミュニティを運営しています。\nぜひお気軽に参加ください。",
         "href": "https://hagakurepgm.net/",
         "label": "塾のサイト",
     },
@@ -27,17 +27,17 @@ WORKS = [
     },
     {
         "num": "03",
-        "title": "HAGAKURE君",
-        "text": "塾のSlackにいる、ござる口調のBotです。2026年は Jev を門番にして、Web検索とSlackの文脈を、必要なときだけ足すようにしました。",
-        "href": "https://hagakurepgm.net/blog/138/",
-        "label": "記事を読む",
+        "title": "Brew Journal",
+        "text": "日々のコーヒー抽出と豆の購入履歴を残すアプリケーションです。AWS+v0で作成しています。",
+        "href": "https://coffee-notebook-app.vercel.app/",
+        "label": "アプリを開く",
     },
     {
         "num": "04",
-        "title": "佐賀ITコミュニティデイ",
-        "text": "県内のコミュニティが集まる二日間です。運営メンバーとして、また参加コミュニティの一つとして関わっています。",
-        "href": "https://hagakurepgm.net/blog/91/",
-        "label": "記事を読む",
+        "title": "SAGA IT COMMUNITY DAY",
+        "text": "県内のITコミュニティが集まるイベントです。\n参加コミュニティとして、\nまた運営メンバーの一人として関わっています。",
+        "href": "https://furukawa3152.github.io/saga-it-community-day2027/",
+        "label": "イベントを見る",
     },
 ]
 
@@ -62,7 +62,7 @@ def work(item: dict) -> str:
           <h3>{html.escape(item["title"])}</h3>
           <span class="tags">{html.escape(item["label"])}</span>
         </div>
-        <p>{html.escape(item["text"])}</p>
+        <p>{html.escape(item["text"]).replace("\n", "<br>")}</p>
       </a>"""
 
 
@@ -70,7 +70,7 @@ def fetched_sentence() -> str:
     if not FETCHED_PATH.exists():
         return ""
     year, month, day = FETCHED_PATH.read_text().strip().split("-")
-    return f"{int(year)}年{int(month)}月{int(day)}日に取得しました。"
+    return f"{int(year)}年{int(month)}月{int(day)}日に更新"
 
 
 def main() -> None:
@@ -97,7 +97,7 @@ def main() -> None:
   <title>ITARU FURUKAWA — Portfolio</title>
   <meta name="description" content="古川 格のポートフォリオ。医療の現場から、Python・AI・コミュニティを通じて、日々の課題を形にする。">
   <meta property="og:title" content="古川 格">
-  <meta property="og:description" content="日常の気づきを、変化のきっかけに。医療の現場から、テクノロジーで一歩先へ。">
+  <meta property="og:description" content="日常の気づきを、変化のきっかけに。ITの力で、「ちょっと面白く」">
   <meta property="og:type" content="website">
   <meta property="og:image" content="images/web/hero.jpg">
   <meta name="twitter:card" content="summary_large_image">
@@ -422,7 +422,7 @@ def main() -> None:
       <span class="side">BASED IN SAGA, JAPAN</span>
       <div class="hero-main">
         <h1 id="hero-title">Make it<br><em>interesting.</em></h1>
-        <p class="intro">日常の気づきを、変化のきっかけに。<br>医療の現場から、テクノロジーで一歩先へ。</p>
+        <p class="intro">日常の気づきを、変化のきっかけに。<br>ITの力で、「ちょっと面白く」</p>
       </div>
       <div class="hero-bottom">
         <div class="person"><strong>古川 格</strong><small>ITARU FURUKAWA</small></div>
@@ -506,7 +506,7 @@ def main() -> None:
     </section>
     <section class="section" id="works">
       <p class="label">WORK</p>
-      <h2>続けている仕事</h2>
+      <h2>作ったものなど</h2>
       <p class="copy">コミュニティの運営と、そのまわりで公開しているものです。</p>
       <div class="work-list">
         {"".join(work(item) for item in WORKS)}
@@ -515,7 +515,7 @@ def main() -> None:
     <section class="section" id="notes">
       <p class="label">NOTES</p>
       <h2>Scrollに書いた記事</h2>
-      <p class="copy">おまけです。itaru 名義の {len(posts)} 本で、画像と見出しは各記事の OGP です。{fetched_sentence()}</p>
+      <p class="copy">{fetched_sentence()}</p>
       {"".join(note_sections)}
       <p class="foot">記事の本文は Scroll 側にあります。</p>
     </section>
