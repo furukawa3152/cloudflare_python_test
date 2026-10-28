@@ -236,6 +236,9 @@
     .note img { width: 100%; aspect-ratio: 1.7 / 1; object-fit: cover; }
     .note time { color: var(--muted); font: 10px monospace; }
     .note strong { font-size: 14px; font-weight: 500; line-height: 1.5; }
+    .more-notes-toggle,
+    .more-notes { display: none; }
+    .more-notes .open { display: none; }
     .foot { margin: 28px 0 0; color: var(--muted); font-size: 12px; }
     .closing {
       background: #d9f18d;
@@ -305,6 +308,29 @@
       .closing { padding: 40px 7%; align-items: flex-start; flex-direction: column; }
       .closing h2 { letter-spacing: -1px; }
       footer { font-size: 8px; padding: 24px 7%; }
+      #notes .note.later,
+      #notes .year.later-year { display: none; }
+      .more-notes-toggle {
+        display: block;
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+      }
+      .more-notes {
+        display: inline-block;
+        margin-top: 22px;
+        color: var(--muted);
+        font-size: 12px;
+        letter-spacing: 0.04em;
+        border-bottom: 1px solid #ffffff40;
+        padding-bottom: 4px;
+      }
+      #notes:has(#more-notes:checked) .note.later { display: flex; }
+      #notes:has(#more-notes:checked) .year.later-year { display: flex; }
+      #notes:has(#more-notes:checked) .more-notes .shut { display: none; }
+      #notes:has(#more-notes:checked) .more-notes .open { display: inline; }
     }
     @media (max-width: 520px) {
       .notes { grid-template-columns: 1fr; }
@@ -468,285 +494,243 @@
           <time datetime="2026-10-24">2026-10-24</time>
           <strong>安くて楽しいAIエージェント、GrokBot！！</strong>
         </a>
-
         <a class="note" href="https://hagakurepgm.net/blog/139/">
           <img src="https://hagakurepgm.net/media/images/IMG_0979.original.jpg" alt="">
           <time datetime="2026-10-18">2026-10-18</time>
           <strong>「みのるん式ビジネスパーソンのためのClaude Code仕事術」輪読会後記</strong>
         </a>
-
         <a class="note" href="https://hagakurepgm.net/blog/138/">
           <img src="https://hagakurepgm.net/media/images/ChatGPT_Image_2026Nian9Yue25Ri_01_03_34.original.png" alt="">
           <time datetime="2026-09-25">2026-09-25</time>
           <strong>Jevを活用して、シン・HAGAKURE君を作ってみた</strong>
         </a>
-
         <a class="note" href="https://hagakurepgm.net/blog/136/">
           <img src="https://hagakurepgm.net/media/images/ChatGPT_Image_2026Nian9Yue22Ri_00_31_53.original.png" alt="">
           <time datetime="2026-09-21">2026-09-21</time>
           <strong>Jevを触ってみた_AIに脊髄反射が追加される時代</strong>
         </a>
-
         <a class="note" href="https://hagakurepgm.net/blog/134/">
           <img src="https://hagakurepgm.net/media/images/ChatGPT_Image_2026Nian9Yue15Ri_23_54_24.original.png" alt="">
           <time datetime="2026-09-16">2026-09-16</time>
           <strong>TIMEMORE C5買ってみた</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/130/">
+        <a class="note later" href="https://hagakurepgm.net/blog/130/">
           <img src="https://hagakurepgm.net/media/images/sukurinshiyotsuto_2026-08-24_0.42.57.original.png" alt="">
           <time datetime="2026-08-23">2026-08-23</time>
           <strong>ページネーション修正とAIモデル更新メモ（追記あり）</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/129/">
+        <a class="note later" href="https://hagakurepgm.net/blog/129/">
           <img src="https://hagakurepgm.net/media/images/ChatGPT_Image_2026Nian8Yue14Ri_00_22_22.original.png" alt="">
           <time datetime="2026-08-13">2026-08-13</time>
           <strong>HAGAKURE君をcronで不死身にした話</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/127/">
+        <a class="note later" href="https://hagakurepgm.net/blog/127/">
           <img src="https://hagakurepgm.net/media/images/ChatGPT_Image_2026Nian7Yue26Ri_01_57_55.original.png" alt="">
           <time datetime="2026-07-26">2026-07-26</time>
           <strong>Webサイトのアクセス解析を読むのをやめて、AIと改善サイクルを回す</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/124/">
+        <a class="note later" href="https://hagakurepgm.net/blog/124/">
           <img src="https://hagakurepgm.net/media/images/sukurinshiyotsuto_2026-07-19_1.06.08.original.png" alt="">
           <time datetime="2026-07-18">2026-07-18</time>
           <strong>RunCat NeoでAIコーディングツールの使用量を表示</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/120/">
+        <a class="note later" href="https://hagakurepgm.net/blog/120/">
           <img src="https://hagakurepgm.net/media/images/sukurinshiyotsuto_2026-06-28_0.15.33.original.png" alt="">
           <time datetime="2026-06-27">2026-06-27</time>
           <strong>v０ハッカソン、作ってみた</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/116/">
+        <a class="note later" href="https://hagakurepgm.net/blog/116/">
           <img src="https://hagakurepgm.net/media/images/sukurinshiyotsuto_2026-06-21_11.15.15.original.png" alt="">
           <time datetime="2026-06-21">2026-06-21</time>
           <strong>v0 and AWS Databasesハッカソン</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/113/">
+        <a class="note later" href="https://hagakurepgm.net/blog/113/">
           <img src="https://hagakurepgm.net/media/images/ShengChengHuaXiang1.original.png" alt="">
           <time datetime="2026-06-06">2026-06-06</time>
           <strong>Chromeで業務アプリを「専用アプリ化」する</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/110/">
+        <a class="note later" href="https://hagakurepgm.net/blog/110/">
           <img src="https://hagakurepgm.net/media/images/easy_make.original.png" alt="">
           <time datetime="2026-05-10">2026-05-10</time>
           <strong>アプリをどしどし使い捨てていこう</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/109/">
+        <a class="note later" href="https://hagakurepgm.net/blog/109/">
           <img src="https://hagakurepgm.net/media/images/ChatGPT_Image_2026Nian4Yue28Ri_23_02_44.original.png" alt="">
           <time datetime="2026-04-28">2026-04-28</time>
           <strong>手書きHTMLに回帰する人たち</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/108/">
+        <a class="note later" href="https://hagakurepgm.net/blog/108/">
           <img src="https://hagakurepgm.net/media/images/ChatGPT_Image_2026Nian4Yue26Ri_02_42_40.original.png" alt="">
           <time datetime="2026-04-26">2026-04-26</time>
           <strong>Gemma4で名刺管理する</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/107/">
+        <a class="note later" href="https://hagakurepgm.net/blog/107/">
           <img src="https://hagakurepgm.net/media/images/rohotsutohatoruGemma_4_Dui_Gemma_3.original.png" alt="">
           <time datetime="2026-04-11">2026-04-11</time>
           <strong>Gemma4 vs Gemma3</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/105/">
+        <a class="note later" href="https://hagakurepgm.net/blog/105/">
           <img src="https://hagakurepgm.net/media/images/rohotsutoDuiJue__Qwen_vs_Gemma.original.png" alt="">
           <time datetime="2026-03-23">2026-03-23</time>
           <strong>Qwen3.5 vs gemma3</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/102/">
+        <a class="note later" href="https://hagakurepgm.net/blog/102/">
           <img src="https://hagakurepgm.net/media/images/Gemini_Generated_Image_nurm2qnurm2qnurm_1.original.png" alt="">
           <time datetime="2026-03-15">2026-03-15</time>
           <strong>美味しいポテトチップスを作りたい</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/101/">
+        <a class="note later" href="https://hagakurepgm.net/blog/101/">
           <img src="https://hagakurepgm.net/media/images/Gemini_Generated_Image_q8tmqeq8tmqeq8tm.original.png" alt="">
           <time datetime="2026-03-10">2026-03-10</time>
           <strong>入院料試算アプリを作ってみた</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/98/">
+        <a class="note later" href="https://hagakurepgm.net/blog/98/">
           <img src="https://hagakurepgm.net/media/images/sukurinshiyotsuto_2026-03-04_0.02.08.original.png" alt="">
           <time datetime="2026-03-04">2026-03-04</time>
           <strong>AIプロンプトコンテスト後記</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/94/">
+        <a class="note later" href="https://hagakurepgm.net/blog/94/">
           <img src="https://hagakurepgm.net/media/images/sukurinshiyotsuto_2026-02-25_23.17.50.original.png" alt="">
           <time datetime="2026-02-25">2026-02-25</time>
           <strong>vibe-local を触ってみた</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/91/">
+        <a class="note later" href="https://hagakurepgm.net/blog/91/">
           <img src="https://hagakurepgm.net/media/images/sukurinshiyotsuto_2026-02-22_22.37.42.original.png" alt="">
           <time datetime="2026-02-22">2026-02-22</time>
           <strong>佐賀ITコミュニティデイ2026を終えて</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/85/">
+        <a class="note later" href="https://hagakurepgm.net/blog/85/">
           <img src="https://hagakurepgm.net/media/images/akuahoisuDuiamikaru.original.png" alt="">
           <time datetime="2026-02-08">2026-02-08</time>
           <strong>Aqua VoiceかAmicalか...</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/82/">
+        <a class="note later" href="https://hagakurepgm.net/blog/82/">
           <img src="https://hagakurepgm.net/media/images/ChatGPT_Image_2026Nian1Yue23Ri_13_18_03.original.png" alt="">
           <time datetime="2026-01-23">2026-01-23</time>
           <strong>2026年は思考を溜めていく</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/81/">
+        <a class="note later" href="https://hagakurepgm.net/blog/81/">
           <img src="https://hagakurepgm.net/media/images/sukurinshiyotsuto_2026-01-01_17.22.29.original.png" alt="">
           <time datetime="2026-01-01">2026-01-01</time>
           <strong>新年早々ドメイン設定でやらかした話</strong>
         </a>
       </div>
-      <h3 class="year">2025<span>22本</span></h3>
+      <h3 class="year later-year">2025<span>22本</span></h3>
       <div class="notes">
-        <a class="note" href="https://hagakurepgm.net/blog/80/">
+        <a class="note later" href="https://hagakurepgm.net/blog/80/">
           <img src="https://hagakurepgm.net/media/images/2025result.original.png" alt="">
           <time datetime="2025-12-28">2025-12-28</time>
           <strong>2025年のコミュニティ活動をAIと振り返る。</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/78/">
+        <a class="note later" href="https://hagakurepgm.net/blog/78/">
           <img src="https://hagakurepgm.net/media/images/infogf.original.png" alt="">
           <time datetime="2025-12-12">2025-12-12</time>
           <strong>Nano Banana Proが凄い。に思うこと</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/75/">
+        <a class="note later" href="https://hagakurepgm.net/blog/75/">
           <img src="https://hagakurepgm.net/media/images/sukurinshiyotsuto_2025-11-17_23.30.05.original.png" alt="">
           <time datetime="2025-11-23">2025-11-23</time>
           <strong>XへのAPIでの自動投稿、意外といけた！</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/76/">
+        <a class="note later" href="https://hagakurepgm.net/blog/76/">
           <img src="https://hagakurepgm.net/media/images/sukurinshiyotsuto_2025-11-20_20.28.00.original.png" alt="">
           <time datetime="2025-11-20">2025-11-20</time>
           <strong>Google Antigravity触ってみた</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/72/">
+        <a class="note later" href="https://hagakurepgm.net/blog/72/">
           <img src="https://hagakurepgm.net/media/images/ChatGPT_Image_2025Nian11Yue3Ri_19_36_44.original.png" alt="">
           <time datetime="2025-11-03">2025-11-03</time>
           <strong>ビット量子化とおばあちゃんの話</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/70/">
+        <a class="note later" href="https://hagakurepgm.net/blog/70/">
           <img src="https://hagakurepgm.net/media/images/sukurinshiyotsuto_2025-10-20_0.10.44.original.png" alt="">
           <time datetime="2025-10-19">2025-10-19</time>
           <strong>GitHub Actionsの環境変数での意外な躓き</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/69/">
+        <a class="note later" href="https://hagakurepgm.net/blog/69/">
           <img src="https://hagakurepgm.net/media/images/sukurinshiyotsuto_2025-10-07_23.43.40.original.png" alt="">
           <time datetime="2025-10-07">2025-10-07</time>
           <strong>drawio×AIでアーキテクト図を描く</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/66/">
+        <a class="note later" href="https://hagakurepgm.net/blog/66/">
           <img src="https://hagakurepgm.net/media/images/sukurinshiyotsuto_2025-09-21_0.46.15.original.png" alt="">
           <time datetime="2025-09-20">2025-09-20</time>
           <strong>AIを混乱させる謎の文字列の話</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/slide_with_ai202509/">
+        <a class="note later" href="https://hagakurepgm.net/blog/slide_with_ai202509/">
           <img src="https://hagakurepgm.net/media/images/sauna_slide.original.png" alt="">
           <time datetime="2025-09-06">2025-09-06</time>
           <strong>AIでプレゼン資料作りたい。2025年9月版</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/cursor-date-setting/">
+        <a class="note later" href="https://hagakurepgm.net/blog/cursor-date-setting/">
           <img src="https://hagakurepgm.net/media/images/a45e27aa-1562-49dc-8fd0-5052d50c86ec.original.png" alt="">
           <time datetime="2025-08-22">2025-08-22</time>
           <strong>Cursor が日付を間違える問題について</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/gpt-oss-vs-gemma3/">
+        <a class="note later" href="https://hagakurepgm.net/blog/gpt-oss-vs-gemma3/">
           <img src="https://hagakurepgm.net/media/images/ChatGPT_Image_2025Nian8Yue8Ri_22_06_18.original.png" alt="">
           <time datetime="2025-08-08">2025-08-08</time>
           <strong>gpt-oss vs gemma3</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/mulmocast-hagakure-introduction/">
+        <a class="note later" href="https://hagakurepgm.net/blog/mulmocast-hagakure-introduction/">
           <img src="https://hagakurepgm.net/media/images/0p.original.png" alt="">
           <time datetime="2025-08-03">2025-08-03</time>
           <strong>mulmocast で HAGAKURE紹介動画作成</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/cloudflare-pages-happy/">
+        <a class="note later" href="https://hagakurepgm.net/blog/cloudflare-pages-happy/">
           <img src="https://hagakurepgm.net/media/images/sukurinshiyotsuto_2025-07-19_1.43.00.original.png" alt="">
           <time datetime="2025-07-18">2025-07-18</time>
           <strong>cloudflare pagesで簡単サイトデプロイ</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/google-form_by_gas/">
+        <a class="note later" href="https://hagakurepgm.net/blog/google-form_by_gas/">
           <img src="https://hagakurepgm.net/media/images/672c31d8-7864-4ce2-b730-987b01cb29f2.original.png" alt="">
           <time datetime="2025-07-05">2025-07-05</time>
           <strong>Google formをGASで作らせちゃおう！</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/gemini-cli_yeah/">
+        <a class="note later" href="https://hagakurepgm.net/blog/gemini-cli_yeah/">
           <img src="https://hagakurepgm.net/media/images/sukurinshiyotsuto_2025-06-27_9.00.34_Dm1177W.original.png" alt="">
           <time datetime="2025-06-28">2025-06-28</time>
           <strong>Gemini CLIがやってきた！ヤーヤーヤー！</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/develop_with_agent/">
+        <a class="note later" href="https://hagakurepgm.net/blog/develop_with_agent/">
           <img src="https://hagakurepgm.net/media/images/ChatGPT_Image_2025Nian6Yue18Ri_23_46_52.original.png" alt="">
           <time datetime="2025-06-18">2025-06-18</time>
           <strong>AIエージェントで開発するコツが少しわかってきた</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/amazon-q_mogura_game/">
+        <a class="note later" href="https://hagakurepgm.net/blog/amazon-q_mogura_game/">
           <img src="https://hagakurepgm.net/media/images/sukurinshiyotsuto_2025-06-11_22.58.15.original.png" alt="">
           <time datetime="2025-06-11">2025-06-11</time>
           <strong>Amazon Qで自然言語でゲーム作成！</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/hagakure-gpt-41-mini/">
+        <a class="note later" href="https://hagakurepgm.net/blog/hagakure-gpt-41-mini/">
           <img src="https://hagakurepgm.net/media/images/ChatGPT_Image_2025Nian6Yue8Ri_01_32_33.original.png" alt="">
           <time datetime="2025-06-07">2025-06-07</time>
           <strong>gpt-4.1-miniのAPIをBotで試す。</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/make_techblog/">
+        <a class="note later" href="https://hagakurepgm.net/blog/make_techblog/">
           <img src="https://hagakurepgm.net/media/images/JiShuburoguZuoChengnochimukorabo.original.png" alt="">
           <time datetime="2025-05-26">2025-05-26</time>
           <strong>一番ハードルの低い技術ブログを目指して</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/mcp_study1/">
+        <a class="note later" href="https://hagakurepgm.net/blog/mcp_study1/">
           <img src="https://hagakurepgm.net/media/images/MCP.original.png" alt="">
           <time datetime="2025-05-25">2025-05-25</time>
           <strong>MCPについて学んでみた</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/whispercppwithpython/">
+        <a class="note later" href="https://hagakurepgm.net/blog/whispercppwithpython/">
           <img src="https://hagakurepgm.net/media/images/whispercpp.original.png" alt="">
           <time datetime="2025-05-23">2025-05-23</time>
           <strong>whisper.cppとPythonで文字起こし</strong>
         </a>
-
-        <a class="note" href="https://hagakurepgm.net/blog/ollamallm/">
+        <a class="note later" href="https://hagakurepgm.net/blog/ollamallm/">
           <img src="https://hagakurepgm.net/media/images/IMG_7708.original.jpg" alt="">
           <time datetime="2025-05-20">2025-05-20</time>
           <strong>OllamaでローカルLLM動作が爆速になった話</strong>
         </a>
       </div>
+      
+      <input class="more-notes-toggle" id="more-notes" type="checkbox">
+      <label class="more-notes" for="more-notes"><span class="shut">ほか42本</span><span class="open">閉じる</span></label>
       <p class="foot">記事の本文は Scroll 側にあります。</p>
     </section>
     <section class="section" id="contact">

@@ -41,13 +41,14 @@ WORKS = [
     },
 ]
 
-def card(post: dict) -> str:
+def card(post: dict, hidden: bool = False) -> str:
     title = html.escape(" ".join(post["title"].split()))
     image = html.escape(post["image"], quote=True)
     url = html.escape(post["url"], quote=True)
     date = html.escape(post["date"])
+    klass = "note later" if hidden else "note"
     return f"""
-        <a class="note" href="{url}">
+        <a class="{klass}" href="{url}">
           <img src="{image}" alt="">
           <time datetime="{date}">{date}</time>
           <strong>{title}</strong>
@@ -79,15 +80,28 @@ def main() -> None:
     for post in posts:
         by_year[post["date"][:4]].append(post)
 
+    visible = 5
+    seen = 0
     note_sections = []
     for year in sorted(by_year, reverse=True):
-        cards = "\n".join(card(post) for post in by_year[year])
+        year_hidden = seen >= visible
+        cards = []
+        for post in by_year[year]:
+            cards.append(card(post, seen >= visible))
+            seen += 1
+        year_class = " later-year" if year_hidden else ""
         note_sections.append(
             f"""
-      <h3 class="year">{html.escape(year)}<span>{len(by_year[year])}本</span></h3>
-      <div class="notes">{cards}
+      <h3 class="year{year_class}">{html.escape(year)}<span>{len(by_year[year])}本</span></h3>
+      <div class="notes">{"".join(cards)}
       </div>"""
         )
+    hidden_count = max(0, len(posts) - visible)
+    more_notes = ""
+    if hidden_count:
+        more_notes = f"""
+      <input class="more-notes-toggle" id="more-notes" type="checkbox">
+      <label class="more-notes" for="more-notes"><span class="shut">ほか{hidden_count}本</span><span class="open">閉じる</span></label>"""
 
     page = f"""<!DOCTYPE html>
 <html lang="ja">
@@ -327,6 +341,9 @@ def main() -> None:
     .note img {{ width: 100%; aspect-ratio: 1.7 / 1; object-fit: cover; }}
     .note time {{ color: var(--muted); font: 10px monospace; }}
     .note strong {{ font-size: 14px; font-weight: 500; line-height: 1.5; }}
+    .more-notes-toggle,
+    .more-notes {{ display: none; }}
+    .more-notes .open {{ display: none; }}
     .foot {{ margin: 28px 0 0; color: var(--muted); font-size: 12px; }}
     .closing {{
       background: #d9f18d;
@@ -396,6 +413,29 @@ def main() -> None:
       .closing {{ padding: 40px 7%; align-items: flex-start; flex-direction: column; }}
       .closing h2 {{ letter-spacing: -1px; }}
       footer {{ font-size: 8px; padding: 24px 7%; }}
+      #notes .note.later,
+      #notes .year.later-year {{ display: none; }}
+      .more-notes-toggle {{
+        display: block;
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+      }}
+      .more-notes {{
+        display: inline-block;
+        margin-top: 22px;
+        color: var(--muted);
+        font-size: 12px;
+        letter-spacing: 0.04em;
+        border-bottom: 1px solid #ffffff40;
+        padding-bottom: 4px;
+      }}
+      #notes:has(#more-notes:checked) .note.later {{ display: flex; }}
+      #notes:has(#more-notes:checked) .year.later-year {{ display: flex; }}
+      #notes:has(#more-notes:checked) .more-notes .shut {{ display: none; }}
+      #notes:has(#more-notes:checked) .more-notes .open {{ display: inline; }}
     }}
     @media (max-width: 520px) {{
       .notes {{ grid-template-columns: 1fr; }}
@@ -520,6 +560,7 @@ def main() -> None:
       <h2>Scrollに書いた記事</h2>
       <p class="copy">{fetched_sentence()}</p>
       {"".join(note_sections)}
+      {more_notes}
       <p class="foot">記事の本文は Scroll 側にあります。</p>
     </section>
     <section class="section" id="contact">
