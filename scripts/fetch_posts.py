@@ -33,7 +33,11 @@ def articles(page: str) -> list[dict]:
     found = []
     for part in page.split('<article class="article">')[1:]:
         block = part.split("</article>", 1)[0]
-        url_m = re.search(r'href="(https://hagakurepgm.net/blog/[^"]+)"', block)
+        # 通常は /blog/。/tags/数字/ で公開された記事もある。
+        url_m = re.search(
+            r'href="(https://hagakurepgm.net/(?:blog/[^"#?]+|tags/\d+/))"',
+            block,
+        )
         title_m = re.search(r'<h3 class="article_title">(.*?)</h3>', block, re.S)
         author_m = re.search(
             r'<div class="article_contributor">.*?<p>(.*?)</p>', block, re.S
