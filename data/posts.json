@@ -1,5 +1,13 @@
 [
   {
+    "title": "GrokBotからのフィードバックで自作アプリを修正した",
+    "description": "GrokBotでコーヒー記録を自動化した体験談でござる",
+    "image": "https://hagakurepgm.net/media/images/scroll_brewjournal_thumb.original.jpg",
+    "url": "https://hagakurepgm.net/tags/143/",
+    "date": "2026-11-09",
+    "site_name": "HAGAKUREのブログサイト Scroll"
+  },
+  {
     "title": "Grok BotでScrollを書かせてみた",
     "description": "Scroll記事の下書きを作るBotの開発記でござる",
     "image": "https://hagakurepgm.net/media/images/scroll_grokbot_thumb_coffee2.original.jpg",
